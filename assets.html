@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Umang Creation — Explore Creative Assets, Banner templates, presets, and digital resources.">
+  <meta name="theme-color" content="#050508">
+  <title>Umang Creation — Explore Assets</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://imgh.in/host/onzoec" type="image/png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== BACKGROUND SKY ========== -->
+  <div class="uiverse-midnight-sky">
+    <div class="sky-canvas">
+      <div class="stars stars-1"></div>
+      <div class="stars stars-2"></div>
+      <div class="stars stars-3"></div>
+      <div class="meteor m1"></div>
+      <div class="meteor m2"></div>
+      <div class="meteor m3"></div>
+      <div class="moon"></div>
+    </div>
+  </div>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <a href="index.html" class="logo">
+      <img src="https://imgh.in/host/onzoec" alt="Umang Creation Logo">
+    </a>
+    <a href="index.html" class="btn btn-outline btn-sm">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" style="margin-right: 4px;"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      Home
+    </a>
+  </header>
+
+  <!-- ========== ASSETS PORTAL CONTENT ========== -->
+  <main class="explore-page-container">
+    <div class="explore-page-header">
+      <span class="section-label">Resources</span>
+      <h1 class="explore-page-title">Creative <span>Assets</span></h1>
+      <p class="explore-page-subtitle">Download free templates, graphic presets, and premium assets or order custom source files.</p>
+    </div>
+
+    <!-- Dynamic Category Filter Tabs -->
+    <div class="explore-filters" id="explore-filters">
+      <!-- Loaded dynamically in assets.js -->
+      <div class="skeleton" style="height:38px; width:80px; border-radius:var(--radius-full);"></div>
+      <div class="skeleton" style="height:38px; width:120px; border-radius:var(--radius-full);"></div>
+      <div class="skeleton" style="height:38px; width:100px; border-radius:var(--radius-full);"></div>
+    </div>
+
+    <!-- Dynamic Assets Grid -->
+    <div class="explore-grid-wrapper">
+      <div class="explore-grid" id="explore-grid">
+        <!-- Loaded dynamically in assets.js -->
+        <div class="skeleton" style="height:280px; border-radius:var(--radius-md);"></div>
+        <div class="skeleton" style="height:280px; border-radius:var(--radius-md);"></div>
+        <div class="skeleton" style="height:280px; border-radius:var(--radius-md);"></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-brand">Umang Creation.</div>
+    <p class="footer-copy">&copy; 2024 Umang Creation. All rights reserved.</p>
+    <a href="#header" class="footer-top">
+      Back to top
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+    </a>
+  </footer>
+
+  <!-- ========== SCRIPTS ========== -->
+  <!-- Firebase SDK (Compat) -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+
+  <!-- App Scripts -->
+  <script src="js/firebase-config.js"></script>
+  <script src="js/assets.js"></script>
+</body>
+</html>
