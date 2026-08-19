@@ -1,0 +1,8 @@
+{
+  "name": "Umang Creation",
+  "description": "Creative Designer Portfolio for Graphic Design, Banner Design, Photo & Video Editing, UI/UX and Branding.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
